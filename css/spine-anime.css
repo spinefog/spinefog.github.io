@@ -1,0 +1,135 @@
+.test {
+  position: relative;
+  /* left: 10%;
+ // width: 450px;
+  //height: 360px;*/
+}
+#base {
+  position: relative;
+}
+#hand {
+  position: absolute;
+  z-index: 2;
+  top: 29.1%;
+  left: 24.4%;
+  animation: handanime 0.5s alternate infinite;
+}
+#cup {
+  position: absolute;
+  z-index: 2;
+  top: 74.5%;
+  left: 18%;
+  animation: cupanime 1s ease;
+}
+#helo {
+  position: absolute;
+  z-index: 2;
+  right: 24.3%;
+  top: 15%;
+  animation: heloanime 1.5s ease infinite;
+}
+#php {
+  position: absolute;
+  z-index: 2;
+  left: 8%;
+  top: 10%;
+  animation: phpanime 1.5s ease infinite;
+}
+#cloud {
+  position: absolute;
+  z-index: 2;
+  border-right: 233px;
+  top: 29%;
+  animation: cloudanime 1.5s ease infinite;
+}
+#gbold {
+  position: absolute;
+  z-index: 2;
+  left: 48.5%;
+  top: 13%;
+  animation: gboldanime 1s linear infinite;
+}
+#gline {
+  position: absolute;
+  z-index: 2;
+  left: 36.6%;
+  top: 10%;
+  animation: glineanime 1s linear infinite;
+}
+@keyframes handanime {
+  0% {
+    transform: rotate(-2deg);
+  }
+
+  100% {
+    transform: rotate(2deg);
+  }
+}
+@keyframes cupanime {
+  0% {
+    transform: rotate(15deg);
+    top: 70%;
+  }
+  30% {
+    transform: rotate(0deg);
+    top: 68%;
+  }
+  60% {
+    transform: rotate(-15deg);
+    top: 65%;
+  }
+  80% {
+    transform: rotate(15deg);
+    top: 70%;
+  }
+  100% {
+    transform: rotate(0deg);
+    top: 74.5%;
+  }
+}
+@keyframes heloanime {
+  0% {
+    top: 22%;
+    opacity: 0;
+  }
+  70% {
+    top: 15%;
+    opacity: 1;
+  }
+  100% {
+    top: 15%;
+    opacity: 1;
+  }
+}
+@keyframes phpanime {
+  0% {
+    top: 25%;
+  }
+  100% {
+    top: 30%;
+  }
+}
+@keyframes cloudanime {
+  0% {
+    left: 58%;
+    opacity: 0;
+  }
+  50% {
+    left: 62%;
+    opacity: 1;
+  }
+  100% {
+    left: 65%;
+    opacity: 0;
+  }
+}
+@keyframes gboldanime {
+  0% {
+    transform: rotate(180deg);
+  }
+}
+@keyframes glineanime {
+  0% {
+    transform: rotate(-180deg);
+  }
+}

@@ -1,0 +1,19 @@
+.banner_part {
+  background-image: url("../img/banner_new.png");
+  background-size: 100vw;
+}
+.banner_part:after {
+  background-color: #49d16b;
+}
+
+#logotitle {
+  position: relative;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 22px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  top: -60px;
+  left: 102px;
+}
