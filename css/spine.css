@@ -29,3 +29,8 @@
   color: aliceblue;
   font-weight: 600;
 }
+sf {
+  color: rgb(187, 236, 9);
+  font-weight: 700;
+  text-shadow: rgb(4, 150, 12) 0.5px 1.67px 2px;
+}
