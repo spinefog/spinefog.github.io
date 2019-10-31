@@ -17,3 +17,15 @@
   top: -60px;
   left: 102px;
 }
+.btn_1 {
+  background: rgb(1, 161, 73);
+  font-size: 22px;
+}
+.btn_1:hover {
+  background: #00d089;
+}
+.main_menu .main-menu-item ul li .nav-link {
+  font-size: 18px;
+  color: aliceblue;
+  font-weight: 600;
+}
